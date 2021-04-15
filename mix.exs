@@ -17,13 +17,13 @@ defmodule ASiC.Mixfile do
       files: ~w(doc src mix.exs LICENSE),
       licenses: ["ISC"],
       maintainers: ["Namdak Tonpa"],
-      name: :abac,
+      name: :asic,
       links: %{"GitHub" => "https://github.com/erpuno/asic"}
     ]
   end
 
   def application() do
-    [mod: {:abac, []}]
+    [mod: {:asic, []}]
   end
 
   def deps() do
