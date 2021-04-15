@@ -4,7 +4,7 @@ defmodule ASiC.Mixfile do
   def project() do
     [
       app: :asic,
-      version: "0.4.0",
+      version: "0.4.1",
       elixir: "~> 1.8",
       description: "ASiC Document Container ISO 21320-1",
       package: package(),

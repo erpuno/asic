@@ -1,7 +1,7 @@
-{application, abac,
+{application, asic,
  [
   {description, "ABAC Attribute Based Access Control"},
-  {vsn, "0.10.0"},
+  {vsn, "0.4.1"},
   {registered, []},
   {applications, [kernel,stdlib]},
   {mod, { abac, []}},
